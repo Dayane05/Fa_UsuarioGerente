@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.telas.AlterarUsuarioGerenteInterface">
+    <children>
+      <Button fx:id="btSalvar" layoutX="224.0" layoutY="336.0" mnemonicParsing="false" style="-fx-background-color: #0b6112;" text="Salvar" textFill="WHITE" />
+      <Label fx:id="lbGerente" layoutX="117.0" layoutY="134.0" text="Gerente" />
+      <ComboBox fx:id="cbGerente" layoutX="118.0" layoutY="151.0" maxWidth="1000.0" prefHeight="25.0" prefWidth="324.0" promptText="Selecione o gerente" /> 
+      <Label fx:id="lbUsuario" layoutX="118.0" layoutY="193.0" text="Usuario" />
+      <ComboBox fx:id="cbUsuario" layoutX="118.0" layoutY="210.0" maxWidth="1000.0" prefHeight="25.0" prefWidth="324.0" promptText="Selecione o usuario" /> 
+      <Label fx:id="lbObservacao" layoutX="120.0" layoutY="252.0" text="Observação" />
+      <TextField fx:id="txtObservacao" layoutX="118.0" layoutY="269.0" maxWidth="1000.0" prefHeight="25.0" prefWidth="324.0" />
+      <Button fx:id="btVoltar" layoutX="286.0" layoutY="336.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Voltar" textFill="WHITE" />
+      <Label fx:id="lbIdT" layoutX="151.0" layoutY="90.0" text="Id" />
+      <Label fx:id="lbId" layoutX="125.0" layoutY="90.0" text="Id" />
+   </children>
+</AnchorPane>
