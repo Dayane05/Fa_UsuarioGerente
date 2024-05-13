@@ -6,12 +6,12 @@
 
 - JavaFX 
 
-- ToomCat 
-
+- MVC
+  
 - MySQL (SQL DB)
-
-- Xampp
 
 - Netbeans (IDE)
 
-- MVC
+-   ToomCat 
+
+- Xampp
